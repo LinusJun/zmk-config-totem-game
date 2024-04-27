@@ -87,13 +87,13 @@
         };
 
         LCopy {
-            bindings = <&kp K_COPY>;
-            key-positions = <22 23>;
+            bindings = <&kp LC(C)>;
+            key-positions = <32 33>;
         };
 
         LPaste {
-            bindings = <&kp K_PASTE>;
-            key-positions = <24 23>;
+            bindings = <&kp LC(V)>;
+            key-positions = <33 34>;
         };
     };
 
