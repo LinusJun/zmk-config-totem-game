@@ -152,10 +152,10 @@
 
         Gaming {
             bindings = <
-       &kp I       &kp Q         &kp W      &kp E  &kp NUMBER_1    &kp F1  &kp F2  &kp F3  &kp F4  &kp LC(LA(DELETE))
-       &kp LSHIFT  &kp A         &kp S      &kp D  &kp NUMBER_2    &kp F5  &trans  &trans  &trans  &kp LC(LS(ESC))
-&mo 6  &kp M       &kp NUMBER_4  &kp V      &kp G  &kp NUMBER_3    &trans  &trans  &trans  &trans  &trans              &kp LA(F4)
-                                 &kp LCTRL  &kp F  &kp SPACE       &trans  &trans  &trans
+         &kp NUMBER_1  &kp Q         &kp W       &kp E  &kp NUMBER_2    &kp F1  &kp F2  &kp F3  &kp F4  &kp LC(LA(DELETE))
+         &kp LCTRL     &kp A         &kp S       &kp D  &mo 6           &kp F5  &trans  &trans  &trans  &kp LC(LS(ESC))
+&kp TAB  &kp LEFT_ALT  &kp NUMBER_4  &kp V       &kp G  &kp NUMBER_3    &trans  &trans  &trans  &trans  &trans              &kp LA(F4)
+                                     &kp LSHIFT  &kp F  &kp SPACE       &trans  &trans  &trans
             >;
 
             label = "Gaming";
@@ -163,10 +163,10 @@
 
         Gaming+ {
             bindings = <
-        &kp F1  &kp F2  &kp F3   &kp F4   &kp T           &trans  &trans  &trans  &trans  &kp LC(RA(DEL))
-        &kp L   &kp O   &kp Y    &kp K    &kp H           &kp F5  &trans  &trans  &trans  &trans
-&trans  &to 0   &trans  &trans   &kp Z    &kp C           &trans  &trans  &trans  &trans  &trans           &kp LA(F4)
-                        &kp ESC  &kp TAB  &kp LEFT_ALT    &trans  &trans  &trans
+        &kp F1  &kp F2  &kp F3   &kp F4  &kp T     &trans  &trans  &trans  &trans  &kp LC(RA(DEL))
+        &kp L   &kp O   &kp Y    &kp K   &trans    &kp F5  &trans  &trans  &trans  &trans
+&trans  &to 0   &trans  &kp H    &kp Z   &kp C     &trans  &trans  &trans  &trans  &trans           &kp LA(F4)
+                        &kp ESC  &kp I   &kp M     &trans  &trans  &trans
             >;
 
             label = "Gaming+";
