@@ -133,7 +133,7 @@
         Fun {
             label = "Fun";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp F1
+        &trans  &trans  &trans  &trans  &to 9     &trans  &trans  &trans  &trans  &kp F1
         &trans  &trans  &trans  &trans  &to 5     &trans  &trans  &trans  &trans  &kp F10
 &trans  &trans  &trans  &trans  &trans  &trans    &to 8   &trans  &trans  &trans  &kp F20  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
@@ -187,6 +187,15 @@
         &trans  &trans  &trans  &trans  &trans    &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_DIVIDE
 &trans  &to 0   &trans  &trans  &trans  &trans    &kp BACKSPACE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans         &to 0
                         &trans  &trans  &trans    &kp ENTER        &kp NUMBER_0  &kp DOT
+            >;
+        };
+
+        GameJoystickL {
+            bindings = <
+       &kp NUMBER_4  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp Q    &kp F1      &kp F2         &kp F3       &kp F4  &kp LA(F4)
+       &kp Z         &kp F         &kp LSHIFT    &kp SPACE     &kp E    &kp T       &kp F5         &trans       &trans  &kp LC(LS(ESC))
+&kp X  &kp ESC       &kp M         &kp V         &kp G         &kp I    &kp Y       &trans         &trans       &trans  &kp LG(D)        &to 0
+                                   &kp LCTRL     &kp TAB       &kp H    &kp RETURN  &kp BACKSPACE  &kp LA(TAB)
             >;
         };
     };
