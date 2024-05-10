@@ -192,10 +192,10 @@
 
         GameJoystickL {
             bindings = <
-       &kp ESC  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_4  &kp Q    &kp F1      &kp F2         &kp F3       &kp F4  &kp LA(F4)
-       &kp Z    &kp F         &kp LSHIFT    &kp SPACE     &kp E    &kp T       &kp F5         &trans       &trans  &kp LC(LS(ESC))
-&kp X  &kp H    &kp M         &kp V         &kp G         &kp I    &kp Y       &trans         &trans       &trans  &kp LG(D)        &to 0
-                              &kp LCTRL     &kp TAB       &to 0    &kp RETURN  &kp BACKSPACE  &kp LA(TAB)
+         &kp ESC  &kp Q  &kp G  &kp E         &kp NUMBER_2    &kp F1      &kp F2         &kp F3       &kp F4  &kp LA(F4)
+         &kp R    &kp Z  &kp F  &kp SPACE     &kp NUMBER_3    &kp T       &kp F5         &trans       &trans  &kp LC(LS(ESC))
+&kp TAB  &kp X    &kp M  &kp V  &kp I         &kp NUMBER_1    &kp Y       &trans         &trans       &trans  &kp LG(D)        &to 0
+                         &kp H  &kp NUMBER_4  &to 0           &kp RETURN  &kp BACKSPACE  &kp LA(TAB)
             >;
         };
     };
