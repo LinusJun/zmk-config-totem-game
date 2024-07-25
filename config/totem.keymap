@@ -95,6 +95,16 @@
             bindings = <&kp LC(V)>;
             key-positions = <33 34>;
         };
+
+        LCp {
+            bindings = <&kp LC(C)>;
+            key-positions = <2 3>;
+        };
+
+        LPst {
+            bindings = <&kp LC(V)>;
+            key-positions = <23 24>;
+        };
     };
 
     keymap {
