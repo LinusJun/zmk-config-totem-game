@@ -123,10 +123,10 @@
         Nav {
             label = "Nav";
             bindings = <
-              &kp F1      &kp HOME     &kp UP_ARROW  &kp END    &kp KP_MINUS     &kp KP_PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
-              &kp F2      &kp LEFT     &kp DOWN      &kp RIGHT  &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_DIVIDE
-&kp LEFT_ALT  &kp LSHIFT  &kp PAGE_UP  &kp INSERT    &kp PG_DN  &kp DEL          &kp BSPC         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans         &trans
-                                       &trans        &trans     &trans           &trans           &kp NUMBER_0  &kp DOT
+              &kp F1      &kp HOME     &kp UP_ARROW  &kp END    &kp LG(TAB)    &kp KP_PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
+              &kp F2      &kp LEFT     &kp DOWN      &kp RIGHT  &kp LA(TAB)    &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_DIVIDE
+&kp LEFT_ALT  &kp LSHIFT  &kp PAGE_UP  &kp LG(D)     &kp PG_DN  &kp DEL        &kp BSPC         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans         &trans
+                                       &trans        &trans     &trans         &trans           &kp NUMBER_0  &kp DOT
             >;
         };
 
