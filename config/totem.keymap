@@ -13,6 +13,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 
 #define Base        0
@@ -186,10 +187,10 @@
 
         FField {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp LC(LS(ESC))  &kp F7  &kp F8  &kp F9  &kp F10
-        &trans  &trans  &trans  &trans  &trans    &kp LC(LA(DEL))  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans    &trans           &kp F1  &kp F2  &kp F3  &kp F12  &kp LALT
-                        &trans  &trans  &trans    &trans           &trans  &trans
+        &trans  &mwh SCROLL_UP    &mmv MOVE_UP    &mwh SCROLL_DOWN   &mkp MB1    &trans  &mkp MB4          &mwh SCROLL_UP    &mkp MB5           &kp F10
+        &trans  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MB2    &trans  &mkp MB1          &mkp MB3          &mkp MB2           &kp F11
+&trans  &trans  &mwh SCROLL_LEFT  &trans          &mwh SCROLL_RIGHT  &mkp MB3    &trans  &mwh SCROLL_LEFT  &mwh SCROLL_DOWN  &mwh SCROLL_RIGHT  &kp F12  &kp LALT
+                                  &trans          &trans             &trans      &trans  &trans            &trans
             >;
         };
 
