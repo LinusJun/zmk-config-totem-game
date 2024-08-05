@@ -144,10 +144,10 @@
         Fun {
             label = "Fun";
             bindings = <
-        &bt BT_CLR_ALL  &ext_power EP_ON   &out OUT_USB  &trans  &to 9     &trans  &trans  &trans  &trans  &kp F1
-        &trans          &ext_power EP_TOG  &out OUT_TOG  &trans  &to 5     &trans  &trans  &trans  &trans  &kp F10
-&trans  &trans          &ext_power EP_OFF  &out OUT_BLE  &trans  &trans    &to 8   &trans  &trans  &trans  &kp F20  &trans
-                                           &trans        &trans  &trans    &trans  &trans  &trans
+        &bt BT_CLR_ALL  &trans  &out OUT_USB  &trans  &to 9     &trans  &trans  &trans  &trans  &kp F1
+        &trans          &trans  &out OUT_TOG  &trans  &to 5     &trans  &trans  &trans  &trans  &kp F10
+&trans  &trans          &trans  &out OUT_BLE  &trans  &trans    &to 8   &trans  &trans  &trans  &kp F20  &trans
+                                &trans        &trans  &trans    &trans  &trans  &trans
             >;
         };
 
