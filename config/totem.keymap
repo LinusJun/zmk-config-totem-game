@@ -126,10 +126,10 @@
         Nav {
             label = "Nav";
             bindings = <
-              &kp F1      &kp HOME     &kp UP_ARROW  &kp END    &kp LG(TAB)    &kp KP_PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
-              &kp F2      &kp LEFT     &kp DOWN      &kp RIGHT  &kp LA(TAB)    &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_DIVIDE
-&kp LEFT_ALT  &kp LSHIFT  &kp PAGE_UP  &kp LG(D)     &kp PG_DN  &kp DEL        &kp BSPC         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL      &trans
-                                       &trans        &trans     &trans         &trans           &kp NUMBER_0  &kp DOT
+              &kp F1      &kp HOME     &kp UP_ARROW  &kp END    &bt BT_NXT      &kp KP_PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
+              &kp F2      &kp LEFT     &kp DOWN      &kp RIGHT  &out OUT_TOG    &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_DIVIDE
+&kp LEFT_ALT  &kp LSHIFT  &kp PAGE_UP  &kp LG(D)     &kp PG_DN  &kp DEL         &kp BSPC         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL      &trans
+                                       &trans        &trans     &trans          &trans           &kp NUMBER_0  &kp DOT
             >;
         };
 
@@ -147,7 +147,7 @@
             label = "Fun";
             bindings = <
         &bt BT_CLR_ALL  &trans  &out OUT_USB  &bt BT_SEL 0  &to 9     &trans  &trans  &trans  &trans  &kp F1
-        &trans          &trans  &out OUT_TOG  &bt BT_SEL 1  &to 5     &trans  &trans  &trans  &trans  &kp F10
+        &bt BT_CLR      &trans  &out OUT_TOG  &bt BT_SEL 1  &to 5     &trans  &trans  &trans  &trans  &kp F10
 &trans  &trans          &trans  &out OUT_BLE  &bt BT_SEL 2  &to 8     &to 8   &trans  &trans  &trans  &kp F20  &trans
                                 &trans        &trans        &trans    &trans  &trans  &trans
             >;
@@ -187,10 +187,10 @@
 
         FField {
             bindings = <
-        &trans  &msc SCROLL_UP    &mmv MOVE_UP    &msc SCROLL_DOWN   &mkp MB1    &trans  &mkp MB4          &msc SCROLL_UP    &mkp MB5           &kp F10
-        &trans  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MB2    &trans  &mkp MB1          &mkp MB3          &mkp MB2           &kp F11
-&trans  &trans  &msc SCROLL_LEFT  &msc MOVE_DOWN  &msc SCROLL_RIGHT  &mkp MB3    &trans  &msc SCROLL_LEFT  &msc SCROLL_DOWN  &msc SCROLL_RIGHT  &kp F12  &kp LALT
-                                  &trans          &trans             &trans      &trans  &trans            &trans
+        &trans  &msc MOVE_UP    &mmv MOVE_UP    &msc MOVE_DOWN   &mkp MB1    &trans  &mkp MB4        &msc MOVE_UP    &mkp MB5         &kp F10
+        &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB2    &trans  &mkp MB1        &mkp MB3        &mkp MB2         &kp F11
+&trans  &trans  &msc MOVE_LEFT  &msc MOVE_DOWN  &msc MOVE_RIGHT  &mkp MB3    &trans  &msc MOVE_LEFT  &msc MOVE_DOWN  &msc MOVE_RIGHT  &kp F12  &kp LALT
+                                &trans          &trans           &trans      &trans  &trans          &trans
             >;
         };
 
