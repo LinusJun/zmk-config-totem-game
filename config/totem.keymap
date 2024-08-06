@@ -187,10 +187,10 @@
 
         FField {
             bindings = <
-        &trans  &mwh SCROLL_UP    &mmv MOVE_UP    &mwh SCROLL_DOWN   &mkp MB1    &trans  &mkp MB4          &mwh SCROLL_UP    &mkp MB5           &kp F10
-        &trans  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MB2    &trans  &mkp MB1          &mkp MB3          &mkp MB2           &kp F11
-&trans  &trans  &mwh SCROLL_LEFT  &msc MOVE_DOWN  &mwh SCROLL_RIGHT  &mkp MB3    &trans  &mwh SCROLL_LEFT  &mwh SCROLL_DOWN  &mwh SCROLL_RIGHT  &kp F12  &kp LALT
-                                  &trans          &trans             &trans      &trans  &trans            &trans
+        &trans  &msc MOVE_UP    &mmv MOVE_UP    &msc MOVE_DOWN   &mkp MB1    &trans  &mkp MB4        &msc MOVE_UP    &mkp MB5         &kp F10
+        &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB2    &trans  &mkp MB1        &mkp MB3        &mkp MB2         &kp F11
+&trans  &trans  &msc MOVE_LEFT  &msc MOVE_DOWN  &msc MOVE_RIGHT  &mkp MB3    &trans  &msc MOVE_LEFT  &msc MOVE_DOWN  &msc MOVE_RIGHT  &kp F12  &kp LALT
+                                &trans          &trans           &trans      &trans  &trans          &trans
             >;
         };
 
