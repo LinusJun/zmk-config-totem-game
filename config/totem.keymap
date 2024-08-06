@@ -47,12 +47,12 @@
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <300>;
+            tapping-term-ms = <400>;
             quick-tap-ms = <125>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
 
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <200>;
         };
     };
 
@@ -116,10 +116,10 @@
         Base {
             label = "Base";
             bindings = <
-            &kp Q       &kp W       &kp E         &kp R         &kp T              &kp Y           &kp U        &kp I        &kp O       &kp P
-            &hm LGUI A  &hm LALT S  &hm LCTRL D   &hm LSHIFT F  &kp G              &kp H           &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
-&lt 3 CAPS  &kp Z       &kp X       &kp C         &kp V         &kp B              &kp N           &kp M        &kp COMMA    &kp DOT     &kp SLASH           &lt 4 APOSTROPHE
-                                    &mt LGUI ESC  &lt 1 TAB     &mt LCTRL SPACE    &mt LSHIFT RET  &lt 2 BSPC   &lt 7 ESC
+            &kp Q       &kp W       &kp E        &kp R         &kp T              &kp Y           &kp U        &kp I        &kp O       &kp P
+            &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHIFT F  &kp G              &kp H           &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
+&lt 3 CAPS  &kp Z       &kp X       &kp C        &kp V         &kp B              &kp N           &kp M        &kp COMMA    &kp DOT     &kp SLASH           &lt 4 APOSTROPHE
+                                    &lt 7 ESC    &lt 1 TAB     &mt LCTRL SPACE    &mt LSHIFT RET  &lt 2 BSPC   &lt 7 ESC
             >;
         };
 
@@ -146,10 +146,10 @@
         Fun {
             label = "Fun";
             bindings = <
-        &bt BT_CLR_ALL  &trans  &out OUT_USB  &trans  &to 9     &trans  &trans  &trans  &trans  &kp F1
-        &trans          &trans  &out OUT_TOG  &trans  &to 5     &trans  &trans  &trans  &trans  &kp F10
-&trans  &trans          &trans  &out OUT_BLE  &trans  &trans    &to 8   &trans  &trans  &trans  &kp F20  &trans
-                                &trans        &trans  &trans    &trans  &trans  &trans
+        &bt BT_CLR_ALL  &trans  &out OUT_USB  &bt BT_SEL 0  &to 9     &trans  &trans  &trans  &trans  &kp F1
+        &trans          &trans  &out OUT_TOG  &bt BT_SEL 1  &to 5     &trans  &trans  &trans  &trans  &kp F10
+&trans  &trans          &trans  &out OUT_BLE  &bt BT_SEL 2  &to 8     &to 8   &trans  &trans  &trans  &kp F20  &trans
+                                &trans        &trans        &trans    &trans  &trans  &trans
             >;
         };
 
