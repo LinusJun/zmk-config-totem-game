@@ -185,11 +185,11 @@
             label = "Gaming+";
         };
 
-        FField {
+        Mouse {
             bindings = <
         &trans  &msc SCRL_UP    &mmv MOVE_UP         &msc SCRL_DOWN   &mkp MB1    &trans  &mkp MB4        &msc SCRL_UP    &mkp MB5         &kp F10
         &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN       &mmv MOVE_RIGHT  &mkp MB2    &trans  &mkp MB1        &mkp MB3        &mkp MB2         &kp F11
-&trans  &trans  &msc SCRL_LEFT  &msc MOVE_Y(-5)  &msc SCRL_RIGHT  &mkp MB3    &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp F12  &kp LALT
+&trans  &trans  &msc SCRL_LEFT  &msc MOVE_UP         &msc SCRL_RIGHT  &mkp MB3    &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp F12  &kp LALT
                                 &trans               &trans           &trans      &trans  &trans          &trans
             >;
         };
